@@ -4,7 +4,7 @@ import ProjectListData from "../projectList/projectListData";
 import { useState } from "react";
 
 const Projects = () => {
-  const [projects, setProjects] = useState(ProjectListData);
+  const [projects] = useState(ProjectListData);
 
   return (
     <section id="portfolio">
