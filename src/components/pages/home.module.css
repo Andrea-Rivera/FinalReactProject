@@ -1,0 +1,15 @@
+.p{
+    font-size: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+article{
+    align-items: center;
+}
+
+.img {
+    height: "20vh";
+    width: "20vh";
+}
+

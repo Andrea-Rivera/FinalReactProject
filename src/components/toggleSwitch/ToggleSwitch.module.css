@@ -1,0 +1,69 @@
+.toggleSwitchCheckbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  .toggleSwitchLabel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 60px;
+    height: 35px;
+    border-radius: 100px;
+    position: relative;
+    background: #000000;
+    transition: background-color 0.2s;
+  }
+  
+  .toggleSwitchLabel .toggleSwitchButton {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    transition: 0.2s;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+  }
+  
+  .toggleSwitchButton:hover {
+    border: 3px solid var(--link-active-color);
+  }
+  
+  .toggleSwitchCheckbox:checked + .toggleSwitchLabel .toggleSwitchButton {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+  }
+  
+  .toggleSwitchLabel:active .toggleSwitchButton {
+    width: 30px;
+  }
+  
+  .left {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    left: 1px;
+    top: 15px;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0;
+  }
+  
+  .right {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    right: 14px;
+    top: 20px;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0;
+  }
+  

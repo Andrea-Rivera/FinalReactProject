@@ -1,0 +1,45 @@
+.card{
+background-color: rgb(178, 175, 175);
+padding:1.5rem;
+border: 2px solid transparent;
+border-radius: 2rem;
+transition:all 500ms ease ;
+margin: 10px;
+}
+
+.card:hover{
+    background-color: transparent;
+    border-color:grey;
+    transform: translateY(-0.5rem);
+}
+.card.light{
+    background-color:rgb(176, 173, 173);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: aliceblue;
+    color:black;
+    padding: 0.6rem 2.5rem;
+    border:2px solid transparent;
+    border-radius:0.8rem ;
+    margin:5px;
+    cursor:pointer;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 600px){
+    .card {
+        padding: 1.2rem;
+    }
+}

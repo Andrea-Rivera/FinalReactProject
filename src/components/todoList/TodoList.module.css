@@ -1,0 +1,15 @@
+.banner {
+    background-image: url("./images/thomas-bormans-pcpsVsyFp_s-unsplash.jpg");
+    padding: 200px;
+    background-size:cover;
+    
+    }
+    
+.main{
+        background-color:beige;
+        padding:20px; 
+ }
+.formbutton{
+        margin:20px; 
+}
+

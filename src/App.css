@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+@import-normalize;
+
+.light-theme {
+  --main-color: #4e4e4e;
+  --main-bg-color: #ffffff;
+  --main-border-color: #5f636e;
+  --main-font-color: #4e4e4e;
+  --main-secondary-color: #222222;
+  --invalid-color: #b40e0e;
+  --background-color: #ffffff;
+  --heading-color: #16b9c2;
+
+  --link-color: #0f6374;
+  --link-visited-color: #3cd2e6;
+  --link-hover-color: #2abfd6;
+  --link-active-color: #5c99fc;
+
+  --main-font-family: "ubuntu", arial;
+  --main-font-weight: normal;
+  --main-font-size: 0.75rem;
+
+  font-family: var(--main-font-family);
+  background-color: var(--background-color);
+
+  height: 100%;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dark-theme {
+  --main-color: #f0f0f0;
+  --main-bg-color: #373c49;
+  --main-border-color: #5f636e;
+  --main-font-color: #fafafa;
+  --main-secondary-color: #ffffff;
+  --invalid-color: #ff304f;
+  --background-color: #282c35;
+  --heading-color: #16b9c2;
+
+  --link-color: #a7f0ff;
+  --link-visited-color: #3cd2e6;
+  --link-hover-color: #2abfd6;
+  --link-active-color: #5c99fc;
+
+  --main-font-family: "ubuntu", arial;
+  --main-font-weight: normal;
+  --main-font-size: 0.75rem;
+
+  font-family: var(--main-font-family);
+  background-color: var(--background-color);
+
+  height: 100%;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: var(--heading-color);
+  font-weight: 800;
+  font-size: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  color: var(--main-secondary-color);
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  color: var(--heading-color);
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+p  {
+  color: var(--main-font-color);
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+a {
+  color: var(--link-color);
+}
+
+body {
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+section {
+  margin: 2% 5%;
 }

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  
+}
+
+  .card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px grey;
+    border-radius: 0.2 rem;
+  
+ 
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    margin: 20px 0;
+  }
+
+  .image{
+        height: 12rem;
+        width: 100%;
+        object-fit: cover;
+  }
+  
+  .title {
+    padding: 1rem;
+  }
+
+  .description {
+    padding: 0 1rem;
+  }
+
+  .btn {
+    
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px;
+    border: 2px solid rgb(39, 11, 220);
+    background: transparent;
+    color: rgb(51, 145, 188);
+    border-radius: 0.2 rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+  }
+
+ .card:hover {
+    transform: scale(1.02);
+  
+  
+  }
+
+ .btn:hover {
+    background:#16b9c2;;
+    color: white;
+  } 
+
+  /*********MEDIA QUERIES*************/
+  @media (min-width: 50.25em) {
+    .wrapper{
+   
+     
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+     
+       
+        
+    }
+   
+}
+
