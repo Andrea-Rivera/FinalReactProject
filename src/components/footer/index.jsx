@@ -7,15 +7,15 @@ import {FaLinkedin} from "react-icons/fa";
 
 const Footer = () =>{
    return (
-      <footer>
+    <footer>
        <div className ={styles.footer}>
            Andrea Rivera @ 2022
        </div>
        <div className={styles.footer}>
-       <ImMobile />
-       <MdEmail/>
-       <ImGithub/>
-       <FaLinkedin/>
+       <ImMobile className= {styles.icon}/>
+       <MdEmail className= {styles.icon}/>
+       <ImGithub className= {styles.icon}/>
+       <FaLinkedin className= {styles.icon}/>
        </div>
        </footer>
    )
