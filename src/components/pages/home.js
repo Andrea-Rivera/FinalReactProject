@@ -5,11 +5,16 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <section>
+  <section>
       <h1> Andrea Rivera Pena </h1>
       <div className="header">
         <img src={HomeImage} alt="Portfolio Projects" className="homeImage" />
+        <a href={CV} download className="homeButton">
+          Download CV
+          <HiDownload />
+        </a>
       </div>
+
       <article className="home">
         <h2>Changing careers to become a great Programmer & Web Developer</h2>
 
@@ -20,10 +25,6 @@ const Home = () => {
           would like to become an expert in Front-end development. Then, a
           professional full stack developer".
         </p>
-        <a href={CV} download className="btn">
-          Download CV
-          <HiDownload />
-        </a>
       </article>
     </section>
   );
