@@ -10,8 +10,9 @@
     height: 50px;
     width: 100%;
     color: var(--link-color);
+}
 
-  
-    
+.icon{
+    margin : 5px;
 }
 
