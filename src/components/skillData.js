@@ -2,6 +2,7 @@ import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCsswizardry } from "react-icons/si";
+import { SiSharp } from "react-icons/si";
 
 const Skilldata = [
   {
@@ -31,6 +32,12 @@ const Skilldata = [
     title: "React",
     description:
       "I have learnt about ES6, components, props, routing, working with APIs, react hooks such as useState, useEffect, useContext ",
+  },
+  {
+    id: 5,
+    icon: <SiSharp />,
+    title: "C#",
+    description:"I have learnt about classes, methods, properties and concepts like inheritance and abstraction",
   },
 ];
 
