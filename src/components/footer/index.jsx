@@ -11,11 +11,19 @@ const Footer = () =>{
        <div className ={styles.footer}>
            Andrea Rivera @ 2022
        </div>
-       <div className={styles.footer}>
-       <ImMobile className= {styles.icon}/>
-       <MdEmail className= {styles.icon}/>
-       <ImGithub className= {styles.icon}/>
-       <FaLinkedin className= {styles.icon}/>
+     <div className={styles.footer}>
+       <a href="0469965685">
+          <ImMobile className= {styles.icon} />
+        </a>
+        <a href="andita54@hotmail.com" >
+          <MdEmail className= {styles.icon} />
+        </a>
+       <a href="https://github.com/Andrea-Rivera" target={"_blank"} rel={'noreferrer'}>
+          <ImGithub className= {styles.icon} />
+        </a>
+       <a href="https://www.linkedin.com/in/andrea-rivera-pena/" target={"_blank"} rel={'noreferrer'}>
+          <FaLinkedin className= {styles.icon} />
+        </a>
        </div>
        </footer>
    )
