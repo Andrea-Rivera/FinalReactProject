@@ -2,7 +2,7 @@ import Skills from "../skills";
 
 const About = () => {
   return (
-    <section style={{ height: "100vh" }}>
+    <section style={{ height: "200vh" }}>
       <Skills />
     </section>
   );
