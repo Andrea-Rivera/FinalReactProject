@@ -10,7 +10,7 @@ const ProjectListData = [
     title: "Christmas Shopping website",
     description: "HTML, CSS and Javascript project",
     demo: "https://rococo-sunflower-9b8f02.netlify.app/",
-    github: "https://github.com/Andrea-Rivera/CLG_FinalProjectJS",
+    github: "https://github.com/Andrea-Rivera/CLG_FirstProject",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const ProjectListData = [
     title: "Food Gallery",
     description: "React project to work with props",
     demo: "https://timely-choux-8e5f51.netlify.app/",
-    github: "https://github.com/Andrea-Rivera/CLG_FinalProjectJS",
+    github: "https://github.com/Andrea-Rivera/my_recipies",
   },
   {
     id: 4,
