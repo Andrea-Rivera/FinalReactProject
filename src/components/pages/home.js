@@ -16,6 +16,7 @@ const Home = () => {
       </div>
 
       <article className="home">
+         <div className="fade_In">
         <h2>Changing careers to become a great Programmer & Web Developer</h2>
 
         <p className="homeParagraph">
@@ -25,6 +26,7 @@ const Home = () => {
           would like to become an expert in Front-end development. Then, a
           professional full stack developer".
         </p>
+        </div>
       </article>
     </section>
   );
