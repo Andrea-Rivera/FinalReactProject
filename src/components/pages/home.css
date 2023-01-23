@@ -1,9 +1,9 @@
-article{
+.home{
     height: 80vh;
     margin:10px;
 }
 
-.home{
+.fade_In{
 animation: fadeIn 4s;
 }
 
