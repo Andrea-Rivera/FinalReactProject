@@ -41,7 +41,7 @@ const ProjectListData = [
     id: 5,
     image: BooksDatabase,
     title: "Books Database",
-    description: "React project to practice Fetch API and AuthContext",
+    description: "React project to practice Fetch API ",
     demo: "https://majestic-otter-490a8b.netlify.app/",
     github: "https://github.com/Andrea-Rivera/Books",
   },
