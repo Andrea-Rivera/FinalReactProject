@@ -2,6 +2,7 @@ import Christmas from "./images/christmasShop.JPG";
 import FoodGallery from "./images/FoodGallery.JPG";
 import TodoList from "./images/toDoList.JPG";
 import TravelDestinations from "./images/travelDestinations.JPG";
+import BooksDatabase from "./images/BooksImage.JPG";
 
 const ProjectListData = [
   {
@@ -35,6 +36,14 @@ const ProjectListData = [
     description: "React project to practice State Hook",
     demo: "https://meek-baklava-f31e15.netlify.app/",
     github: "https://github.com/Andrea-Rivera/ToDoList_React",
+  },
+  {
+    id: 5,
+    image: BooksDatabase,
+    title: "Books Database",
+    description: "React project to practice Fetch API and AuthContext",
+    demo: "https://majestic-otter-490a8b.netlify.app/",
+    github: "https://github.com/Andrea-Rivera/Books",
   },
 ];
 
