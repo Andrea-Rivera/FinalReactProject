@@ -3,6 +3,7 @@ import FoodGallery from "./images/FoodGallery.JPG";
 import TodoList from "./images/toDoList.JPG";
 import TravelDestinations from "./images/travelDestinations.JPG";
 import BooksDatabase from "./images/BooksImage.JPG";
+import FormsReact from "./images/forms.JPG";
 
 const ProjectListData = [
   {
