@@ -45,6 +45,14 @@ const ProjectListData = [
     demo: "https://majestic-otter-490a8b.netlify.app/",
     github: "https://github.com/Andrea-Rivera/Books",
   },
+    {
+    id: 6,
+    image: FormsReact,
+    title: "Forms React",
+    description: "React project to practice states and form validation",
+    demo: "https://inspiring-mooncake-8aad50.netlify.app/",
+    github: "https://github.com/Andrea-Rivera/FormsReact",
+  },
 ];
 
 export default ProjectListData;
