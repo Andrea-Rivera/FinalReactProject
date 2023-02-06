@@ -1,5 +1,5 @@
 import HomeImage from "../projectList/images/picAndrea.JPG";
-import CV from "../projectList/images/cvNew2022.pdf";
+import CV from "../projectList/images/cvNew2023.pdf";
 import { HiDownload } from "react-icons/hi";
 import "./home.css";
 
