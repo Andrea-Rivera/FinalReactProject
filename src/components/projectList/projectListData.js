@@ -18,7 +18,7 @@ const ProjectListData = [
     id: 2,
     image: TravelDestinations,
     title: "Travel Destinations",
-    description: "HTML,CSS and JavaScript project to practice Web Apis, Fetch API, Objects and Arrays and DOM manipulation.",
+    description: "HTML,CSS and JavaScript project to practice Web Apis, Fetch API, Objects, Arrays and DOM manipulation.",
     demo: "https://preeminent-snickerdoodle-c32e97.netlify.app/",
     github: "https://github.com/Andrea-Rivera/CLG_FinalProjectJS",
   },
