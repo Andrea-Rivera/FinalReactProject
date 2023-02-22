@@ -25,10 +25,10 @@ const ProjectListData = [
   {
     id: 3,
     image: FoodGallery,
-    title: "Food Gallery",
-    description: "React project to work with props",
-    demo: "https://timely-choux-8e5f51.netlify.app/",
-    github: "https://github.com/Andrea-Rivera/my_recipies",
+    title: "Recipe App",
+    description: "React project to work with react-router-dom and hooks like useState() and useEffect()",
+    demo: "https://bespoke-madeleine-00da9f.netlify.app/",
+    github: "https://github.com/Andrea-Rivera/RecipiesAllReact",
   },
   {
     id: 4,
