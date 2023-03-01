@@ -1,5 +1,5 @@
 import Christmas from "./images/christmasShop.JPG";
-import recipeSmall from "./images/recipeSmall.JPG";
+import RecipeReact from "./images/RecipeReact.JPG";
 import TodoList from "./images/toDoList.JPG";
 import TravelDestinations from "./images/travelDestinations.JPG";
 import bookAll from "./images/bookAll.JPG";
@@ -48,7 +48,7 @@ const ProjectListData = [
   },
     {
     id: 6,
-    image: recipeSmall,
+    image: RecipeReact,
     title: "Recipe App",
     description: "React project to work with react-router-dom and hooks like useState() and useEffect()",
     demo: "https://bespoke-madeleine-00da9f.netlify.app/",
