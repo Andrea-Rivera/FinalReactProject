@@ -24,11 +24,11 @@ const ProjectListData = [
   },
   {
     id: 3,
-    image: recipeSmall,
-    title: "Recipe App",
-    description: "React project to work with react-router-dom and hooks like useState() and useEffect()",
-    demo: "https://bespoke-madeleine-00da9f.netlify.app/",
-    github: "https://github.com/Andrea-Rivera/RecipiesAllReact",
+    image: FormsReact,
+    title: "Forms React",
+    description: "React project to practice states and form validation",
+    demo: "https://inspiring-mooncake-8aad50.netlify.app/",
+    github: "https://github.com/Andrea-Rivera/FormsReact",
   },
   {
     id: 4,
@@ -48,11 +48,11 @@ const ProjectListData = [
   },
     {
     id: 6,
-    image: FormsReact,
-    title: "Forms React",
-    description: "React project to practice states and form validation",
-    demo: "https://inspiring-mooncake-8aad50.netlify.app/",
-    github: "https://github.com/Andrea-Rivera/FormsReact",
+    image: recipeSmall,
+    title: "Recipe App",
+    description: "React project to work with react-router-dom and hooks like useState() and useEffect()",
+    demo: "https://bespoke-madeleine-00da9f.netlify.app/",
+    github: "https://github.com/Andrea-Rivera/RecipiesAllReact",
   },
 ];
 
