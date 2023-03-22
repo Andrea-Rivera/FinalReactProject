@@ -22,24 +22,9 @@ const ProjectListData = [
     demo: "https://preeminent-snickerdoodle-c32e97.netlify.app/",
     github: "https://github.com/Andrea-Rivera/CLG_FinalProjectJS",
   },
+
   {
     id: 3,
-    image: FormsReact,
-    title: "Forms React",
-    description: "React project to practice states and form validation",
-    demo: "https://inspiring-mooncake-8aad50.netlify.app/",
-    github: "https://github.com/Andrea-Rivera/FormsReact",
-  },
-  {
-    id: 4,
-    image: TodoList,
-    title: "To Do List",
-    description: "React project to practice State Hook",
-    demo: "https://meek-baklava-f31e15.netlify.app/",
-    github: "https://github.com/Andrea-Rivera/ToDoList_React",
-  },
-  {
-    id: 5,
     image: bookAll,
     title: "Books App",
     description: "In this React project I practice useState() ,and learned about axios and how to use google Books API. ",
@@ -47,7 +32,7 @@ const ProjectListData = [
     github: "https://github.com/Andrea-Rivera/BooksAllReact",
   },
     {
-    id: 6,
+    id: 4,
     image: RecipeReact,
     title: "Recipe App",
     description: "React project to work with react-router-dom and hooks like useState() and useEffect()",
