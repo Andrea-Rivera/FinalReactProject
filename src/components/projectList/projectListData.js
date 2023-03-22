@@ -1,9 +1,8 @@
 import Christmas from "./images/christmasShop.JPG";
 import RecipeReact from "./images/RecipeReact.JPG";
-import TodoList from "./images/toDoList.JPG";
 import TravelDestinations from "./images/travelDestinations.JPG";
 import bookAll from "./images/bookAll.JPG";
-import FormsReact from "./images/forms.JPG";
+
 
 const ProjectListData = [
   {
