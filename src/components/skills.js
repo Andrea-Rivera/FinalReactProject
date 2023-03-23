@@ -10,10 +10,10 @@ const Skills = () => {
       <div className="container services_container">
         {Skilldata.map((item) => (
           <CardProject key={item.id}>
-            <div id="progressBar"></div>
             <div className="service_icon">{item.icon}</div>
             <h4>{item.title}</h4>
             <p>{item.description}</p>
+            <p>{item.certificate}</p>
           </CardProject>
         ))}
       </div>
