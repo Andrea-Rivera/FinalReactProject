@@ -1,23 +1,21 @@
 import Skilldata from "./skillData";
-import CardProject from "./card/cardProject";
+import Skillcard from "./card/skillcard/skillcard";
+import "./skills.css";
 
 const Skills = () => {
   return (
-    <section id="skills">
-      <h1>My Skills</h1>
-      <p>These are my programming skills:</p>
+    <>
+      <section id="skills">
+        <h1>My Skills</h1>
+        <p>These are my programming skills:</p>
+      </section>
 
-      <div className="container services_container">
-        {Skilldata.map((item) => (
-          <CardProject key={item.id}>
-            <div className="service_icon">{item.icon}</div>
-            <h4>{item.title}</h4>
-            <p>{item.description}</p>
-            <p>{item.certificate}</p>
-          </CardProject>
+      <div className="flippable-cards-container ">
+        {Skilldata.map((skill, index) => (
+          <Skillcard key={index} skilldata={skill} />
         ))}
       </div>
-    </section>
+    </>
   );
 };
 
