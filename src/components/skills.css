@@ -1,0 +1,24 @@
+
+.flippable-cards-container{
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+/*3D content*/
+perspective: 1000px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .flippable-cards-container{
+        height: 1400px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    /*3D content*/
+    perspective: 1000px;
+    
+    }
+  }
