@@ -1,0 +1,68 @@
+.skillcard{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+    /*Content alignment*/
+    position: relative;
+    margin: 20px 0; 
+
+    /*3D content to rotate not only the card but its content: title*/
+    transform-style: preserve-3d;
+    transition: transform 1000ms;
+  
+
+}
+
+.skillcard:hover{
+    transform: rotateY(180deg);
+}
+
+
+
+.skillcard-front,
+.skillcard-back{
+    height: 100%;
+    width: 100%;
+
+/* cards alignment*/
+position: absolute;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(108, 105, 105);
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+       
+    /*3D content* When we rotate the card, the other face will not be visible*/
+       -webkit-backface-visibility: hidden;
+       backface-visibility: hidden;
+
+}
+
+.skillcard-front{
+background-color: aqua;
+display:flexbox;
+flex-direction: column;
+
+}
+
+.skillcard-back{
+    background-color: bisque;
+    /*3D content*/
+    transform: rotateY(180deg);
+    display:flexbox;
+    flex-direction: column;
+  
+ 
+}
+
+.description{
+    margin:10px;
+}
