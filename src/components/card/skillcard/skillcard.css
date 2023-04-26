@@ -47,7 +47,7 @@ position: absolute;
 }
 
 .skillcard-front{
-background-color: aqua;
+background-color: #16b9c2;
 display:flexbox;
 flex-direction: column;
 
