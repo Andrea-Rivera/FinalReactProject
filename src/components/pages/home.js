@@ -20,11 +20,9 @@ const Home = () => {
         <h2>Changing careers to become a great Programmer & Web Developer</h2>
 
         <p className="homeParagraph">
-          "I am a career changer and a student of Code like a Girl scholarship.
-          Currently, I am looking for opportunities to build more expertise in
-          the web development industry to become an experienced programmer. I
-          would like to become an expert in Front-end development. Then, a
-          professional full stack developer".
+          "I am a web development graduate looking for opportunities as a Front- End developer 
+          also with an interest in the Back-end. I am transitioning from the electronics to the 
+          software industry where I can continue automating processes and creating interesting apps."
         </p>
         </div>
       </article>
