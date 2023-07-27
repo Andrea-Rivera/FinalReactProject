@@ -3,7 +3,7 @@ import { SiReact } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCsswizardry } from "react-icons/si";
 import { BiLogoDjango } from "react-icons/bi";
-import {FaPython} from  "react-icons/fa";
+import { SiPython } from "react-icons/si" ;
 import htmlImage from "./card/skillcard/images/html.png";
 import jsImage from "./card/skillcard/images/js.png";
 import reactImage from "./card/skillcard/images/react.png";
@@ -79,10 +79,10 @@ const Skilldata = [
   },
   {
     id: 5,
-    icon: <BiLogoDjango />,
+    icon: <SiPython />,
     title: "Python and Django",
     description:
-      "I learned python and then Django to manage the back-end side of my applications."
+     "I learned Python and then Django to manage the back-end side of my applications.",
   },
 ];
 
