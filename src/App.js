@@ -15,7 +15,7 @@ function App() {
   const darkMode = theme.darkMode;
   console.log(darkMode);
   return (
-    <div className={darkMode ? "light-theme" : "dark-theme"}>
+    <div className={darkMode ? "dark-theme" : "light-theme"}>
       <Navigation />
       <main>
         <Switch>
