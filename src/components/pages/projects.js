@@ -10,8 +10,7 @@ const Projects = () => {
     <section id="portfolio">
       <h1>Recent Projects</h1>
       <p>
-        These are some of the projects I recently worked for my course with Code
-        Like a girl.
+          These are some of the projects I recently worked on.
       </p>
       <div className="container portfolio_container">
         <ProjectDisplay projects={projects} />
