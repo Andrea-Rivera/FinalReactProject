@@ -7,6 +7,7 @@ import htmlImage from "./card/skillcard/images/html.png";
 import jsImage from "./card/skillcard/images/js.png";
 import reactImage from "./card/skillcard/images/react.png";
 
+
 const Skilldata = [
   {
     id: 1,
@@ -77,7 +78,7 @@ const Skilldata = [
   },
   {
     id: 5,
-    icon: <FaPython />,
+    icon: <BiLogoDjango />,
     title: "Python",
     description:
       "I learned python and then Django to manage the back-end side of my applications."
