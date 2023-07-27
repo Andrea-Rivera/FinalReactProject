@@ -2,7 +2,7 @@ import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCsswizardry } from "react-icons/si";
-import { SiSharp } from "react-icons/si";
+import { BiLogoDjango } from "react-icons/bi";
 import htmlImage from "./card/skillcard/images/html.png";
 import jsImage from "./card/skillcard/images/js.png";
 import reactImage from "./card/skillcard/images/react.png";
@@ -77,10 +77,10 @@ const Skilldata = [
   },
   {
     id: 5,
-    icon: <SiSharp />,
-    title: "C#",
+    icon: <FaPython />,
+    title: "Python",
     description:
-      "I learned about classes, methods, properties and concepts like inheritance and abstraction.Now am learning and doing .Net Core applications",
+      "I learned python and then Django to manage the back-end side of my applications."
   },
 ];
 
