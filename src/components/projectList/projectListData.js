@@ -1,7 +1,8 @@
 import Christmas from "./images/christmasShop.JPG";
-import RecipeReact from "./images/RecipeReact.JPG";
-import TravelDestinations from "./images/travelDestinations.JPG";
 import bookAll from "./images/bookAll.JPG";
+import weatherApp from "./images/weather.png";
+import news from "./images/news_style.png";
+
 
 
 const ProjectListData = [
@@ -24,14 +25,14 @@ const ProjectListData = [
 
   {
     id: 3,
-    image: bookAll,
+    image: weatherApp,
     title: "Phyton Weather Project",
     description: "The purpose of this project is to create scripts that will manage weather data. ",
     github: "https://github.com/Andrea-Rivera/weather_project",
   },
     {
     id: 4,
-    image: RecipeReact,
+    image: news,
     title: "News App",
     description: "This project was done to practice python and Django concepts by building different features.",
     github: "https://github.com/Andrea-Rivera/news_project",
