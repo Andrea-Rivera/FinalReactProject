@@ -2,7 +2,6 @@ import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCsswizardry } from "react-icons/si";
-import { BiLogoDjango } from "react-icons/bi";
 import { SiPython } from "react-icons/si" ;
 import htmlImage from "./card/skillcard/images/html.png";
 import jsImage from "./card/skillcard/images/js.png";
