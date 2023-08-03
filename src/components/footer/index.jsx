@@ -9,7 +9,7 @@ const Footer = () =>{
    return (
     <footer>
        <div className ={styles.footer}>
-           Andrea Rivera @ 2022
+           Andrea Rivera @ 2023
        </div>
      <div className={styles.footer}>
        <a href="0469965685">
