@@ -38,6 +38,7 @@ border-color:rgb(221, 234, 183);
     .portfolio_projects{
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+       justify-content: center;
     }
 }
 
@@ -46,5 +47,6 @@ border-color:rgb(221, 234, 183);
     .portfolio_projects{
         grid-template-columns: 1fr;
         gap: 1.5rem;
+      justify-content: center;
     }
 }
