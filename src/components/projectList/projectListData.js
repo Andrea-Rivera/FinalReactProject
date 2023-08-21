@@ -13,6 +13,7 @@ const ProjectListData = [
     description: "HTML, CSS and Javascript project to practice Forms, Links, Flexbox, DOM Manipulation ",
     demo: "https://rococo-sunflower-9b8f02.netlify.app/",
     github: "https://github.com/Andrea-Rivera/CLG_FirstProject",
+   
   },
   {
     id: 2,
@@ -29,6 +30,7 @@ const ProjectListData = [
     title: "Phyton Weather Project",
     description: "The purpose of this project is to create scripts that will manage weather data. ",
     github: "https://github.com/Andrea-Rivera/weather_project",
+    isDisabled: true,
   },
     {
     id: 4,
@@ -36,6 +38,7 @@ const ProjectListData = [
     title: "News App",
     description: "This project was done to practice python and Django concepts by building different features.",
     github: "https://github.com/Andrea-Rivera/news_project",
+    isDisabled: true,
   },
 ];
 

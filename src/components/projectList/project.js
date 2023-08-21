@@ -16,6 +16,8 @@ const Project = ({ project }) => {
             className="btn sm"
             target="_blank"
             rel="noopener noreferrer"
+            disabled = {project.isDisabled}
+            
           >
             Demo
           </a>
