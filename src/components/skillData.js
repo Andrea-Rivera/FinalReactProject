@@ -81,7 +81,7 @@ const Skilldata = [
     icon: <SiPython />,
     title: "Python and Django",
     description:
-     "I learned Python and then Django to manage the back-end side of my applications. I learned to work with models, views, templates, and authentication modules. Currently implementing serializers and building APIs  ",
+     "I learned to work with models, views, templates, and authentication modules. Currently implementing serializers and building APIs  ",
   },
 ];
 
