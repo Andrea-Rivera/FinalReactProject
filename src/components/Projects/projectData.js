@@ -27,19 +27,19 @@ const ProjectData = [
 
   {
     id: 3,
-    image: weatherApp,
-    title: "Phyton Weather Project",
-    description: "The purpose of this project was to create scripts that manage weather data. ",
-    github: "https://github.com/Andrea-Rivera/weather_project",
-    isDisabled: true,
-  },
-    {
-    id: 4,
     image: news,
     title: "News App",
     description: "This project was done to practice python and Django concepts by building different features.",
     demo: "https://she-codes-news.fly.dev/news/",
     github: "https://github.com/Andrea-Rivera/news_project",
+  },
+    {
+    id: 4,
+    image: weatherApp,
+    title: "Phyton Weather Project",
+    description: "The purpose of this project was to create scripts that manage weather data. ",
+    github: "https://github.com/Andrea-Rivera/weather_project",
+    isDisabled: true,
     
   },
 ];
