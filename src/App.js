@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import Home from "./components/Pages/home";
 import About from "./components/Pages/about";
@@ -11,17 +11,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <Switch>
-    <Route exact path="/">
-      <Home />
-    </Route>
-    <Route path="/about">
-      <About />
-    </Route>
-    <Route path="/projects">
-      <Projects />
-    </Route>
-  </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} exact />
+          <Route path="/about" element={<About />} exact />
+          <Route path="/projects" element={<Projects />} exact />
+
+        </Routes>
         <Footer />
       </BrowserRouter>
     </div>
