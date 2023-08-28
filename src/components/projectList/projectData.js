@@ -5,7 +5,7 @@ import news from "./images/news_style.png";
 
 
 
-const ProjectListData = [
+const ProjectData = [
   {
     id: 1,
     image: Christmas,
@@ -42,4 +42,4 @@ const ProjectListData = [
   },
 ];
 
-export default ProjectListData;
+export default ProjectData;

@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectDisplay from "../projectList/projectDisplay";
-import ProjectListData from "../projectList/projectListData";
+import ProjectData from "../projectList/projectData";
 import { useState } from "react";
 
 const Projects = () => {
-  const [projects] = useState(ProjectListData);
+  const [projects] = useState(ProjectData);
 
   return (
     <section id="portfolio">
