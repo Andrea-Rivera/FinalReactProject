@@ -1,39 +1,29 @@
-import { Route, Switch } from "react-router-dom";
-import React, { useContext } from "react";
-import "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/navbar";
+import Home from "./components/Pages/home";
+import About from "./components/Pages/about";
+import Projects from "./components/Pages/projects";
 
-import Navigation from "./components/navigation";
-import Home from "./components/pages/home";
-import About from "./components/pages/about";
-import Projects from "./components/pages/projects";
-import Footer from "./components/footer";
-import { ThemeContext } from "./theme/ThemeProvider";
-
+import Footer from  "./components/Footer/footer";
 
 function App() {
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.darkMode;
-  console.log(darkMode);
   return (
-    <div className={darkMode ? "dark-theme" : "light-theme"}>
-      <Navigation />
-      <main>
+    <div className="App">
+      <BrowserRouter>
+        <Navbar />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-          <Route path="*">
-            <h1>Oops! Sorry page not found!</h1>
-          </Route>
-        </Switch>
-      </main>
-      <Footer />
+    <Route exact path="/">
+      <Home />
+    </Route>
+    <Route path="/about">
+      <About />
+    </Route>
+    <Route path="/projects">
+      <Projects />
+    </Route>
+  </Switch>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
