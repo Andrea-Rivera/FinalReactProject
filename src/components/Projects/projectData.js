@@ -2,6 +2,7 @@ import Christmas from "./images/christmasShop.JPG";
 import bookAll from "./images/bookAll.JPG";
 import weatherApp from "./images/weather.png";
 import news from "./images/news_style.png";
+import crowdfunding from "./images/crowdfundingApp.png"
 
 
 
@@ -33,8 +34,16 @@ const ProjectData = [
     demo: "https://she-codes-news.fly.dev/news/",
     github: "https://github.com/Andrea-Rivera/news_project",
   },
-    {
+  {
     id: 4,
+    image: crowdfunding,
+    title: "crowdfunding App",
+    description: "This project was done to practice DRF and React concepts by building different features.",
+    demo: "https://frontend-crowdfunding.netlify.app/",
+    github: "https://github.com/Andrea-Rivera/crowdfunding-frontend",
+  },
+    {
+    id: 5,
     image: weatherApp,
     title: "Phyton Weather Project",
     description: "The purpose of this project was to create scripts that manage weather data. ",
