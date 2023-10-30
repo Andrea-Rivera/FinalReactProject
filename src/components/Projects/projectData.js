@@ -3,6 +3,7 @@ import bookAll from "./images/bookAll.JPG";
 import weatherApp from "./images/weather.png";
 import news from "./images/news_style.png";
 import crowdfunding from "./images/crowdfundingApp.png"
+import mentorship from "./images/mentorship.png"
 
 
 
@@ -30,7 +31,7 @@ const ProjectData = [
     id: 3,
     image: news,
     title: "News App",
-    description: "This project was done to practice python and Django concepts by building different features.",
+    description: "This project was done to practice Python and Django concepts by building different features.",
     demo: "https://she-codes-news.fly.dev/news/",
     github: "https://github.com/Andrea-Rivera/news_project",
   },
@@ -42,8 +43,16 @@ const ProjectData = [
     demo: "https://frontend-crowdfunding.netlify.app/",
     github: "https://github.com/Andrea-Rivera/crowdfunding-frontend",
   },
-    {
+  {
     id: 5,
+    image: mentorship,
+    title: "MentorShip App",
+    description: "This project was a group project to practice DRF and React concepts but also to learn more the use of github and team work.",
+    demo: "https://mentorship-shecodes.netlify.app/",
+    github: "https://github.com/SheCodesAus/layer_8_victory_frontend_bris_2023",
+  },
+    {
+    id: 6,
     image: weatherApp,
     title: "Phyton Weather Project",
     description: "The purpose of this project was to create scripts that manage weather data. ",
