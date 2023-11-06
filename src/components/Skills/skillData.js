@@ -84,7 +84,7 @@ const SkillData = [
     icon: <TbBrandCSharp />,
     title: "C#",
     description:
-      "Variables,Methods, Classes, OOP priciples. ASP.NET (MVC(Model. View, Controller) ,Web API's, Linq Queries)",
+      "Variables,Methods, Classes, OOP priciples. ASP.NET: MVC(Model. View, Controller) ,Web API's, Linq Queries",
   },
 
 
