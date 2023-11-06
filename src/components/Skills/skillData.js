@@ -1,7 +1,6 @@
 import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
-import { SiCsswizardry } from "react-icons/si";
 import { SiPython } from "react-icons/si" ;
 import {TbBrandCSharp}from "react-icons/tb" ;
 import htmlImage from "../Cards/images/html.png";
@@ -13,7 +12,6 @@ const SkillData = [
   {
     id: 1,
     icon: <ImHtmlFive />,
-    icon: <SiCsswizardry />,
     title: "HTML/CSS",
    
     description:
